@@ -181,7 +181,7 @@ elif select_step == 'Step 1: Gather the data':
         """
     )
     
-    DGP_image = Image.open(r'images\Data Generating Process - DGP_cropped.png')
+    DGP_image = Image.open('Data Generating Process - DGP_cropped.png')
 
     st.image(DGP_image, caption='The Data Generating Process (DGP) geneartes data \
              that creates a model used to approximate the DGP.')
@@ -943,14 +943,14 @@ elif select_step == 'Interpreting the PBC':
         """
     )
     
-    interpret_image_1 = Image.open(r'images\Interpreting PBC Flow Chart - Resource.png')
+    interpret_image_1 = Image.open('Interpreting PBC Flow Chart - Resource.png')
     
     st.image(interpret_image_1, caption="Interpreting a PBC revolves around answering a single question: \
              is all the data in the process limits? Whether it does or it doesn't use this flow chart to guide your efforts.")
          
     interpret_image_2 = Image.open(r'images\Interpreting PBC Flow Chart.png')
     
-    with open("images\Interpreting PBC Flow Chart.png", "rb") as file:
+    with open("Interpreting PBC Flow Chart.png", "rb") as file:
         
         btn = st.download_button(
             label='Download flowchart',
