@@ -198,8 +198,8 @@ elif select_step == 'Step 1: Gather the data':
     st.markdown(
         """
         To this end, data should be organized such that each point can be associated with unique timestamps of equal intervals. Such a structure is reflected \
-        in the manufacturing data below. Here, the timestamps of equal intervals are listed in the row labeled *Year* with the associated value listed \
-        in the row labeled *Value*. The friction of performing subsequent steps, like calculating moving ranges, will be significantly reduced by \
+        in the manufacturing data below. Here, the timestamps of equal intervals are listed as the dataframes index as *Observations*. Each observations is associated with a value listed \
+        in the column labeled *Value*. The friction of performing subsequent steps, like calculating moving ranges, will be significantly reduced by \
         this intentional structuring.
         """
     )
