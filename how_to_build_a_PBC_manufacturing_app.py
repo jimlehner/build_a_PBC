@@ -64,32 +64,22 @@ with st.sidebar:
     st.markdown(" # About the creator")
     st.markdown(
         """
-        Jim Lehner is a mechanical engineer working in manufacturing. His interests rest at 
-        the confluence of industry and data science. He has worked in aerospace, industrial machining, automotive, and healthcare. 
-        
-        For collaborations contact him via email or linkedin:
-        """
-    )
-    st.markdown(
-        """
-        James.Lehner@Gmail.com
-
-        """
-    )
-    st.markdown(
-        """
-        https://www.linkedin.com/in/jim-lehner/
-        """
-    )
-    
-    #st.markdown("# Contact")
-    #st.markdown(
-    #    """
-    #    To learn more about the use and application of Process Behavior Charts in industry and elsewhere contact Jim Lehner. 
-    #    """
-    #)
-    #url = "https://www.createholisticsolutions.com/"
-    #st.markdown("[link]" % url)
+        My name is Jim Lehner :wave:. 
+                
+        I'm an accomplished continous improvement and process engineer :necktie: with experience in aerospace :airplane:, automatoive :car:, industrial automation :wrench:, 
+        and healthcare :hospital:. 
+                
+        My data-driven approach ensures time, attention, and resources are directed to where they are needed most🎯. 
+                
+        Let's connect so I can help you, your team, and your organization turn your data :chart_with_upwards_trend: into insights :bulb: and those insights into actions :running:. 
+        - James.Lehner@Gmail.com
+        - [Linkedin](https://www.linkedin.com/in/jim-lehner/)
+        """)
+    st.markdown("# Addition Resources")
+    st.markdown("""
+                - [CreateHolisticSolutions.com](https://www.createholisticsolutions.com/)
+                - [Digital Portfolio](https://www.createholisticsolutions.com/portfolio)
+                """)
 
 select_step = st.selectbox("Select a step", ['Introduction', 
                                              'Step 1: Gather the data',
